@@ -1,0 +1,73 @@
+/* My first css */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url("../images/lotus.jpg");
+    color: white;
+}
+
+img{
+    border: 10px dotted deeppink;
+}
+
+h1{
+    border: 5px dashed deeppink;
+    color: white;
+    text-align: center ;
+    padding: 2rem;
+}
+
+blockquote{
+    font-style: italic;
+    font-size: 1.3rem;
+    background-color: deeppink;
+    text-align: center;
+}
+
+cite{
+    font-size: 1rem;
+    background-color:green ;
+    text-align: center;
+}
+
+.bigBold{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+h2, h3{
+    border: 5px dashed deeppink;
+}
+
+p{
+    line-height: 2rem;
+}
+
+ul a:link {
+    font-weight: bolder;
+    color: deeppink;
+}
+a:visited {
+    font-weight: bolder;
+    color: yellow;
+}
+
+
+a:focus {
+    font-weight: bolder;
+    border: 3px dotted deeppink;
+}
+a:hover {
+    font-weight: bolder;
+    color: white;
+    font-weight: bold;
+    font-size:2rem;
+}
+a:active {
+    font-weight: bolder;
+    color: #7c8e88;
+}
+
+a.harvard:link{
+    background-color: purple;
+    color: white;
+}
